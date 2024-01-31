@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sudoku{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.sudoku tr:nth-of-type(even){
+    border-bottom: 2px solid black;
+}
+
+.sudoku td:nth-of-type(3){
+    border-right: 2px solid black;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.min-vh-100{
+    min-height: 100vh;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: rgb(28, 224, 87);
+    color: white;
+    transition: .3s;
+    box-shadow: -4px 4px 5px 1px rgb(53, 53, 53);
+}
+
+.btn:hover{
+    opacity: .7;
+}
+
+.mistakes{
+    color: red;
+}
+
+.container{
+    max-width: 540px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.App {
+    background-color:rgb(86, 195, 203);
+}
+
+.cell{
+    border: 1px solid gray;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.cell-active{
+    background: rgb(34, 109, 114);
+}
