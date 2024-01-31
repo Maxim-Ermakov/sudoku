@@ -1,3 +1,7 @@
+#This project was created for the Sudoku game, but more for the mobile version by the developer Maksim-Ermakov. 29.01.2024
+
+
+
 git add .
 git commit -m 'пишем то, что изменили в проекте'
 git push
